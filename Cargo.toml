@@ -12,4 +12,3 @@ b = []
 
 [dev-dependencies]
 test-macros = { path = "test-macros" }
-test-setup = { path = "test-setup" }

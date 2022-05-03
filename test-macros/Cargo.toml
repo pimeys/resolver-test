@@ -10,4 +10,3 @@ proc-macro = true
 
 [dependencies]
 resolver-test = { path = "../" }
-test-setup = { path = "../test-setup" }
