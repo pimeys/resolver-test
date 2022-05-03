@@ -1,0 +1,9 @@
+[package]
+name = "test-setup"
+version = "0.1.0"
+authors = ["Julius de Bruijn <bruijn@prisma.io>"]
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+resolver-test = { path = ".." }

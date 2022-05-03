@@ -1,0 +1,3 @@
+* Breaking feature flags with Cargo resolver 2
+
+An example code that breaks with Cargo resolver 2. The feature flags are not available during compilation in the main library when using the ~resolver = "2"~ setting in the ~Cargo.toml~. Changing it to ~resolver = "1"~ fixes the issue.
